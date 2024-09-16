@@ -18,3 +18,8 @@ function checkCountValue() {
     }
 }
 
+function resetCount() {
+    count = 0; //Increment the count by 1
+    displayCount(); //Display the count
+    alert("Your Instagram follower count has been reset to 0!")
+}
