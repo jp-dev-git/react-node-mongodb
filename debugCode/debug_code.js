@@ -23,6 +23,14 @@
                 return a * b;
             }
 
+            function add(a, b) {
+                // Introduce a debugger statement to pause execution
+                debugger;
+
+                // Add the numbers
+                return a + b;
+            }
+
             function displayResult(result) {
                 // Display the result in the paragraph element
                 const resultElement = document.getElementById('result');
